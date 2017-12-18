@@ -9,9 +9,13 @@
     $second = 10;
     $first = 100;
     while($first >= 10){
-      $first--;
+
       $result = ($first * $second);
-      echo $result.'<br />';
+      echo $result;
+      ?>
+      <br />
+      <?php 
+      $first--;
     }
      ?>
   </body>
